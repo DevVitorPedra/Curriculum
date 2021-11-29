@@ -39,6 +39,12 @@ export const StyledDescription = styled.p`
     font-size:14px;
     color:white;
     margin-left:20px;
+    :hover{
+        cursor: pointer;
+        color:red;
+       
+        font-weight:1000;
+    }
 `
 export const StyledFooter = styled.section`
 display:flex;

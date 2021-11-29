@@ -11,8 +11,8 @@ export default function MidCard() {
     return (
         <StyledMainCardContainer>
             <StyledSections>
-            <StyledSectionsTitles><i className="bi bi-pc-display-horizontal"></i> Softwares</StyledSectionsTitles>
-            <StyledDescription><SiJavascript/>Javascript</StyledDescription>
+            <StyledSectionsTitles><i className="bi bi-pc-display-horizontal"></i> Desenvolvimento</StyledSectionsTitles>
+            <StyledDescription ><SiJavascript/>Javascript</StyledDescription>
             <StyledDescription><DiReact/> React JS </StyledDescription>
             <StyledDescription><DiNodejsSmall/> Node JS </StyledDescription>
             <StyledDescription><SiStyledcomponents/> Styled Components </StyledDescription>

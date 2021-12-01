@@ -1,7 +1,7 @@
 import React, { useContext} from 'react'
 import { ModalContext } from '../Contexts/ModalContext/OpenModalContext';
 import { TempDataContext } from '../Contexts/ModalContext/TempDataContext';
-import { StyledAvatar, StyledSections, StyledMainCardContainer, StyledSectionsTitles, StyledDescription } from './StyledSectionsCard'
+import { StyledAvatar, StyledSections, StyledMainCardContainer, StyledSectionsTitles, StyledDescription, StyledLink } from './StyledSectionsCard'
 import { EXP } from '../../services/expData';
 export default function MainCard() {
     const { modal,setModal } = useContext(ModalContext);
@@ -16,17 +16,20 @@ export default function MainCard() {
             <StyledSections>
                 <StyledSectionsTitles><i style={{ fontSize: 30 }} className="bi bi-signpost-split"></i>
                     Experiências</StyledSectionsTitles>
-               <StyledDescription onClick={()=>expDispatcher(EXP.americanas.title,EXP.americanas.content)}><i className="bi bi-signpost"></i> CD Lojas Americanas</StyledDescription>
-                <StyledDescription onClick={()=>expDispatcher(EXP.flex.title,EXP.flex.content)}><i className="bi bi-signpost"></i> Flex Contact Center</StyledDescription>
-                <StyledDescription onClick={()=>expDispatcher(EXP.barbeariavip.title,EXP.barbeariavip.content)}><i className="bi bi-signpost"></i> Barbeiro Autônomo</StyledDescription>
-                <StyledDescription onClick={()=>expDispatcher(EXP.desenvolvedor.title,EXP.desenvolvedor.content)}><i className="bi bi-signpost"></i> Web/Mobile Designer</StyledDescription>
+               <StyledDescription onClick={()=>expDispatcher(EXP.americanas.title,EXP.americanas.content)}><i className="bi bi-signpost"></i> CD Americanas</StyledDescription>
+                <StyledDescription onClick={()=>expDispatcher(EXP.flex.title,EXP.flex.content)}><i className="bi bi-signpost"></i> Flex CC</StyledDescription>
+                <StyledDescription onClick={()=>expDispatcher(EXP.barbeariavip.title,EXP.barbeariavip.content)}><i className="bi bi-signpost"></i> Barbeiro</StyledDescription>
+                <StyledDescription onClick={()=>expDispatcher(EXP.desenvolvedor.title,EXP.desenvolvedor.content)}><i className="bi bi-signpost"></i> Web/Mobile Dev</StyledDescription>
             </StyledSections>
             <StyledAvatar />
             <StyledSections>
                 <StyledSectionsTitles><i style={{ fontSize: 30 }} className="bi bi-person-lines-fill"></i> Contatos</StyledSectionsTitles>
-                <StyledDescription><i className="bi bi-linkedin"></i> Vitor Santos Pedra</StyledDescription>
-                <StyledDescription><i className="bi bi-github"></i> DevVitorPedra</StyledDescription>
-                <StyledDescription><i className="bi bi-envelope"></i> vitor.s.pedra</StyledDescription>
+                <StyledDescription><StyledLink href="https://www.linkedin.com/in/vitor-santos-pedra-179a831bb/" target="_blank"><i className="bi bi-linkedin"></i> Vitor Pedra</StyledLink></StyledDescription>
+                <StyledDescription><StyledLink href="https://github.com/DevVitorPedra" target="_blank"><i className="bi bi-github"></i> DevVitorPedra</StyledLink></StyledDescription>
+                <StyledDescription onClick={()=>{
+                    navigator.clipboard.writeText('vitor.s.pedra@gmail.com')
+                    
+            }}><i className="bi bi-envelope"></i> vitor.s.pedra</StyledDescription>
             </StyledSections>
         </StyledMainCardContainer>
         

@@ -3,6 +3,7 @@ import { ModalContext } from '../Contexts/ModalContext/OpenModalContext';
 import { TempDataContext } from '../Contexts/ModalContext/TempDataContext';
 import { StyledAvatar, StyledSections, StyledMainCardContainer, StyledSectionsTitles, StyledDescription, StyledLink } from './StyledSectionsCard'
 import { EXP } from '../../services/expData';
+import ReactTooltip from 'react-tooltip';
 export default function MainCard() {
     const { modal,setModal } = useContext(ModalContext);
     const { tempData, setTempData } = useContext(TempDataContext)
@@ -29,7 +30,8 @@ export default function MainCard() {
                 <StyledDescription onClick={()=>{
                     navigator.clipboard.writeText('vitor.s.pedra@gmail.com')
                     
-            }}><i className="bi bi-envelope"></i> vitor.s.pedra</StyledDescription>
+            }} data-tip="Email copiado!" ><i className="bi bi-envelope"></i> vitor.s.pedra</StyledDescription>
+            <ReactTooltip place="bottom" globalEventOff="click" event="click" />
             </StyledSections>
         </StyledMainCardContainer>
         

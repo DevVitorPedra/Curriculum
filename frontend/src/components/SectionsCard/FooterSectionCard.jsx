@@ -30,7 +30,7 @@ export default function FooterCard() {
             <StyledDescription  onClick={()=>expDispatcher(PASSIONS.musica.title,PASSIONS.musica.content)}><GiGuitarHead/> Música</StyledDescription>
           </StyledSections>
           <StyledSections>
-          <StyledSectionsTitles><IoIosPeople/> Extracurriculares</StyledSectionsTitles>
+          <StyledSectionsTitles><IoIosPeople/> Extra</StyledSectionsTitles>
           <StyledDescription  onClick={()=>expDispatcher(EXTRA.ceob.title,EXTRA.ceob.content)}><FaHandsHelping/> CEOB</StyledDescription>
           <StyledDescription  onClick={()=>expDispatcher(EXTRA.floripa.title,EXTRA.floripa.content)}><FaHandsHelping/> Voluntário Floripa</StyledDescription>
           </StyledSections>

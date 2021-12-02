@@ -18,17 +18,18 @@ export const StyledSectionsTitles = styled.h2`
     
 `
 export const StyledAvatar = styled.div`
-margin-top:-40px;
-    width:140px;
-    height:140px;
+
+    width:160px;
+    height:160px;
     border-radius:50%;
     background-image:url(${avatar});
     background-size:cover;
+    
 `
 export const StyledSections = styled.section`
 
 
-opacity:0.7;
+opacity:0.8;
     width:32%;
     height:100%;
     padding:5px;

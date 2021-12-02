@@ -21,7 +21,7 @@ export default function MidCard() {
     return (
         <StyledMainCardContainer>
             <StyledSections>
-            <StyledSectionsTitles><i className="bi bi-pc-display-horizontal"></i> Desenvolvimento</StyledSectionsTitles>
+            <StyledSectionsTitles><i className="bi bi-pc-display-horizontal"></i> Dev</StyledSectionsTitles>
             <StyledDescription  onClick={()=>expDispatcher(DEV.javascript.title,DEV.javascript.content)}><FaJsSquare/> Javascript</StyledDescription>
             <StyledDescription  onClick={()=>expDispatcher(DEV.react.title,DEV.react.content)}><FaReact/> React JS </StyledDescription>
             <StyledDescription  onClick={()=>expDispatcher(DEV.node.title,DEV.node.content)}><FaNodeJs/> Node JS </StyledDescription>

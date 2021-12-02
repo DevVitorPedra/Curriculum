@@ -8,7 +8,12 @@ export const StyledTitleContainer = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+    opacity:0.8;
+    background-color:#111;
+    border-radius:20px;
+    padding:5px;
 `
+
 export const StyledTitle = styled.h1`
     font-size:4vw;
     color:white;

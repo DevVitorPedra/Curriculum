@@ -8,7 +8,13 @@ export const StyledMainCardContainer = styled.section`
     display:flex;
     justify-content:space-evenly;
     padding:10px;
-    margin:2px;
+    
+    @media(max-width: 600px) {
+    flex-direction: column;
+    position: relative;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-bottom:100px;  }
 `
 export const StyledSectionsTitles = styled.h2`
     font-size:20px;
@@ -24,17 +30,28 @@ export const StyledAvatar = styled.div`
     border-radius:50%;
     background-image:url(${avatar});
     background-size:cover;
+    @media(max-width:600px){
+    position:absolute;
+    top:-40px;
+    right:0;
+    left:0;
+    width:70px;
+    height:70px;
+    }
     
 `
 export const StyledSections = styled.section`
-
-
+margin-top:50px;
+min-width:160px;
 opacity:0.8;
-    width:32%;
+    width:28%;
     height:100%;
     padding:5px;
     background-color:#111;
     border-radius:20px;
+    @media(max-width:600px){
+        width:70%;
+    }
 `
 export const StyledDescription = styled.p`
     font-size:14px;

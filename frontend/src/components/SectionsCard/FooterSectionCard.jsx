@@ -21,20 +21,20 @@ export default function FooterCard() {
   }
     return (
         <StyledMainCardContainer>
-      <StyledFooter>
-          <StyledSections>
+     
+          <StyledSections style={{height:200}} >
               <StyledSectionsTitles><AiOutlineHeart/> Paixões</StyledSectionsTitles>
             <StyledDescription  onClick={()=>expDispatcher(PASSIONS.chess.title,PASSIONS.chess.content)}><FaChessBishop/> Xadrez</StyledDescription>
             <StyledDescription  onClick={()=>expDispatcher(PASSIONS.esportes.title,PASSIONS.esportes.content)}><MdSkateboarding/> Esportes</StyledDescription>
             <StyledDescription  onClick={()=>expDispatcher(PASSIONS.games.title,PASSIONS.games.content)}><CgGames/> Games</StyledDescription>
             <StyledDescription  onClick={()=>expDispatcher(PASSIONS.musica.title,PASSIONS.musica.content)}><GiGuitarHead/> Música</StyledDescription>
           </StyledSections>
-          <StyledSections>
+          <StyledSections style={{height:200}}>
           <StyledSectionsTitles><IoIosPeople/> Extra</StyledSectionsTitles>
           <StyledDescription  onClick={()=>expDispatcher(EXTRA.ceob.title,EXTRA.ceob.content)}><FaHandsHelping/> CEOB</StyledDescription>
           <StyledDescription  onClick={()=>expDispatcher(EXTRA.floripa.title,EXTRA.floripa.content)}><FaHandsHelping/> Voluntário Floripa</StyledDescription>
           </StyledSections>
-      </StyledFooter>
+    
       </StyledMainCardContainer>
     )
 }

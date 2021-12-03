@@ -31,12 +31,7 @@ export const StyledAvatar = styled.div`
     background-image:url(${avatar});
     background-size:cover;
     @media(max-width:600px){
-    position:absolute;
-    top:-40px;
-    right:0;
-    left:0;
-    width:70px;
-    height:70px;
+   display:none;
     }
     
 `

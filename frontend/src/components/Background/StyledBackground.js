@@ -6,7 +6,7 @@ height:100%;
 display:flex;
 flex-direction:column;
 gap:10px;
-border-radius:12px;
+border-radius:20px;
 background-image:url(${BG});
 background-size:cover;
 filter:rgba(0, 0, 0,1);

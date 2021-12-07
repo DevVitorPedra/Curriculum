@@ -11,5 +11,10 @@ background-image:url(${BG});
 background-size:cover;
 filter:rgba(0, 0, 0,1);
 overflow-y:auto;
+@media(max-width:600px){
+    width:100vw;
+    background-image:url(${BG});
+    background-size:contain;
+}
 
 `

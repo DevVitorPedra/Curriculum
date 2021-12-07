@@ -14,7 +14,7 @@ overflow-y:auto;
 @media(max-width:600px){
     width:100vw;
     background-image:url(${BG});
-    background-size:contain;
+    background-size:cover;
 }
 
 `

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import BG from '../../assets/images/bg-02.jpg'
+import BGsmall from '../../assets/images/bg-small.jpg'
 export const  StyledBackground = styled.div`
 width:80vw;
 height:100%;
@@ -17,7 +18,7 @@ overflow-y:auto;
     display:flex;
     flex-direction:column;
     gap:10px;
-    background-image:url(${BG});
+    background-image:url(${BGsmall});
     background-size:cover;
     overflow-y:auto;
 }

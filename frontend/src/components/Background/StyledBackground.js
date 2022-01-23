@@ -19,7 +19,7 @@ overflow-y:auto;
     flex-direction:column;
     gap:10px;
     background-image:url(${BGsmall});
-    background-size:cover;
+    background-size:contain;
     overflow-y:auto;
 }
 

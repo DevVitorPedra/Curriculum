@@ -11,9 +11,14 @@ background-image:url(${BG});
 background-size:cover;
 overflow-y:auto;
 @media(max-width:600px){
-    width:100vw;
+    width:90vw;
+    height:100%;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
     background-image:url(${BG});
-    background-size:cover;
+    background-size:contain;
 }
 
 `

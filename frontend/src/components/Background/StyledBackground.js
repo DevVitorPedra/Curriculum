@@ -13,7 +13,7 @@ overflow-y:auto;
 @media(max-width:600px){
     width:100%auto;
     background-image:url(${BG});
-    background-size:auto;
+    background-size:cover;
 }
 
 `

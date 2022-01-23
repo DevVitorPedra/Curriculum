@@ -4,7 +4,7 @@ import { StyledMainCardContainer } from '../SectionsCard/StyledSectionsCard'
 export default function Title() {
     return (
         <StyledTitleContainer>
-            <StyledTitle>Vitor dos Santos Pedra</StyledTitle>
+            <StyledTitle>Vitor Santos Pedra</StyledTitle>
         </StyledTitleContainer>
     )
 }

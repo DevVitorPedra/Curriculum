@@ -7,20 +7,19 @@ export const HS = {
     },
     sistemas:{
         title:'Análise e Des. de Sistemas',
-        content:`Graduando. Nesta formação tenho ganhado conhecimentos fundamentais na área de desenvolvimento, conhecendo linguagens,
-        ferramentas de gestão de projetos como Git, Github, e também de rotinas como Scrum, Kanban Board e Trello. Me formo em 06/2023.`
+        content:`Graduando. Nesta formação tenho ganhado conhecimentos fundamentais na área de desenvolvimento, conhecendo linguagens
+         e também de rotinas como Scrum, Kanban Board e Trello. Me formo em 06/2023.`
     },
     devinhouse:{
         title:'Desenvolvedor Fullstack',
         content:`Curso de desenvolvimento Web Fullstack com base em React e Node, tenho criado aplicações com foco em SPA's.
-        Com um ritmo avançado, tem o objetivo de formar dev's em 9 meses, com uma base sólida e voltada para o mercado,
-        tenho dedicado em torno de 12 horas por dia com as aulas  e desenvolvendo projetos próprios.
+        Com um ritmo avançado, tem o objetivo de formar dev's em 9 meses, com uma base sólida e voltada para o mercado.        
         Criado pelo SENAI tem o objetivo de formar desenvolvedores para suprir as necessidades das empresas parceiras.`
     },
     ingles:{
         title:'Idioma:Inglês',
-        content:`Conhecimento avançado, porém, não fluente, venho desenvolvendo minhas habilidades na língua de forma autônoma,
-        tendo contato através de jogos, filmes, livros e séries, como barbeiro tive a oportunidade de desenvolver um pouco mais a conversação.`
+        content:`Conhecimento intermediário/avançado.
+        Capacidade de leitura de livros e textos complexos, conversação intermediária/ avançada, não fluente.`
     },
     mais:{
         title:'Outras Hard Skills',

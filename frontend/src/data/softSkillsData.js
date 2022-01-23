@@ -10,7 +10,7 @@ export const SS={
         content:`Desenvolvi bastante minha capacidade de foco devido a trabalhar com trânsito, ferramentas pesadas e também por precisar estudar em ambientes 
         com bastante distrações.Consigo manter o foco várias horas, mesmo com distrações no ambiente.
         Costumo terminar tudo que começo e dou o meu melhor sempre.
-        Na transição de barbeiro para programador tenho dedicado até 14 horas por dia, as vezes tendo até 6 horas de foco ininterruptos.`
+        Na transição de barbeiro para programador cheguei a estudar até 14 horas por dia, as vezes tendo até 6 horas de foco ininterruptos.`
         
     },
     proativo:{

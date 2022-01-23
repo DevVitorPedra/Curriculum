@@ -25,9 +25,9 @@ export const EXP = {
     },
     desenvolvedor: {
         title: 'desenvolvedor',
-        content: `No final de 2020 comecei a estudar desenvolvimento de sistemas, comecei com Java desktop/android e hoje estou com 
-        foco em Javascript e React, tenho focado na criação de projetos, tentando minimizar a reprodução de conteúdo.
-        Tenho feito trabalhos de templates de html, js e css e também React  como freelance.
-        Estou buscando minha colocação como desenvolvedor Jr `
+        content: `Em 2020 comecei a estudar desenvolvimento de sistemas, comecei com Java desktop/android e depois migrei para Javascript, 
+        pensando em atuar como fullstack, tenho criado projetos completos com integrações em NodeJS, DB's relacionais e não relacionais.
+        
+         `
     }
 }

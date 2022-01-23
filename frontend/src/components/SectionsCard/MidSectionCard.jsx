@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { StyledDescription, StyledMainCardContainer, StyledSections, StyledSectionsTitles } from './StyledSectionsCard'
-import { DEV } from '../../services/devData'
+import { DEV } from '../../data/devData'
 import { FaAssistiveListeningSystems, FaDatabase, FaGraduationCap, FaNodeJs,FaReact, FaJsSquare} from 'react-icons/fa'
 import { RiEnglishInput, RiFocus3Line } from 'react-icons/ri'
 import {FiMoreHorizontal} from 'react-icons/fi'
@@ -8,8 +8,8 @@ import { MdOutlinePsychology } from 'react-icons/md'
 import { ImUserPlus} from 'react-icons/im'
 import { ModalContext } from '../Contexts/ModalContext/OpenModalContext'
 import { TempDataContext } from '../Contexts/ModalContext/TempDataContext'
-import { HS } from '../../services/hardSkillsData'
-import { SS } from '../../services/softSkillsData'
+import { HS } from '../../data/hardSkillsData'
+import { SS } from '../../data/softSkillsData'
 export default function MidCard() {
     const {modal,setModal} = useContext(ModalContext)
     const {TempData,setTempData} = useContext(TempDataContext)

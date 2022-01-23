@@ -9,8 +9,8 @@ import { CgGames } from 'react-icons/cg'
 import { GiGuitarHead } from 'react-icons/gi'
 import { ModalContext } from '../Contexts/ModalContext/OpenModalContext'
 import { TempDataContext } from '../Contexts/ModalContext/TempDataContext'
-import { PASSIONS } from '../../services/passionsData'
-import { EXTRA } from '../../services/extraData'
+import { PASSIONS } from '../../data/passionsData'
+import { EXTRA } from '../../data/extraData'
 export default function FooterCard() {
   const {modal,setModal} = useContext(ModalContext)
   const {TempData,setTempData} = useContext(TempDataContext)

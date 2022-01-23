@@ -6,15 +6,15 @@ export const PASSIONS = {
     },
     esportes: {
         title: 'Skate, basquete',
-        content: `Comecei a andar de skate com 7 anos, com  8 quebrei o braço e fui proibído de andar.
-        Voltei a andar com 12 e nunca mais parei, participei de algumas competições, mas gosto mais de me divertir.
+        content: `Ando de skate desde os 7 anos,
+        participei de algumas competições, mas gosto mais de me divertir.
         Já no basquete comecei com 14 anos e jogo até hojê, devido a minha altura e atleticismo sempre me destaquei no esporte,
         recebi bolsa de estudos e participei de algumas competições.`
     },
     games: {
         title: 'Games',
         content: ` A paixão pelos games também foi por influência dos irmãos,
-        o mais velho fabricava arcades, e desde cedo jogava bastante, rpg's são os meus favoritos.
+        o mais velho fabricava arcades, e desde cedo jogavamos bastante, rpg's são os meus favoritos.
         Devido a necessidade de evoluir nos jogos, que sempre eram em inglês, o dicionário estava sempre do lado e  comecei a aprender o idioma sem perceber`
     },
     musica: {

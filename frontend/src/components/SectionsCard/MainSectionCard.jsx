@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { ModalContext } from '../Contexts/ModalContext/OpenModalContext';
 import { TempDataContext } from '../Contexts/ModalContext/TempDataContext';
 import { StyledAvatar, StyledSections, StyledMainCardContainer, StyledSectionsTitles, StyledDescription, StyledLink } from './StyledSectionsCard'
-import { EXP } from '../../services/expData';
+import { EXP } from '../../data/expData';
 import ReactTooltip from 'react-tooltip';
 export default function MainCard() {
     const { modal, setModal } = useContext(ModalContext);

@@ -18,7 +18,8 @@ overflow-y:auto;
     flex-direction:column;
     gap:10px;
     background-image:url(${BG});
-    background-size:contain;
+    background-size:cover;
+    overflow-y:auto;
 }
 
 `

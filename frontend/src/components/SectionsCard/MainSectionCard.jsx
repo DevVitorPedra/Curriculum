@@ -25,7 +25,7 @@ export default function MainCard() {
             <StyledAvatar />
             <StyledSections>
                 <StyledSectionsTitles><i style={{ fontSize: 30 }} className="bi bi-person-lines-fill"></i> Contatos</StyledSectionsTitles>
-                <StyledDescription><StyledLink href="https://www.linkedin.com/in/vitor-santos-pedra-179a831bb/" target="_blank"><i className="bi bi-linkedin"></i> Vitor Pedra</StyledLink></StyledDescription>
+                <StyledDescription><StyledLink href="https://www.linkedin.com/in/vitor-santos-179a831bb/" target="_blank"><i className="bi bi-linkedin"></i> Vitor Pedra</StyledLink></StyledDescription>
                 <StyledDescription><StyledLink href="https://github.com/DevVitorPedra" target="_blank"><i className="bi bi-github"></i> DevVitorPedra</StyledLink></StyledDescription>
                 <StyledDescription onClick={() => {
                     navigator.clipboard.writeText('vitor.s.pedra@gmail.com')

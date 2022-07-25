@@ -1,5 +1,5 @@
 import React, { useContext} from 'react'
-import { StyledFooter, StyledMainCardContainer, StyledSections, StyledSectionsTitles } from './StyledSectionsCard'
+import { StyledMainCardContainer, StyledSections, StyledSectionsTitles } from './StyledSectionsCard'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { StyledDescription } from './StyledSectionsCard'
 import { FaChessBishop, FaHandsHelping} from 'react-icons/fa'

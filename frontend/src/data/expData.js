@@ -1,18 +1,18 @@
 export const EXP = {
-    americanas: {
-        title: "Conferente",
-        content: `Trabalhei por um ano dentro do centro de distribuição das lojas Americanas,
-        entrei como separador de mercadorias, depois de desenvolver uma ideia de separação na parte
-        de cargas que ajudou a manter a organização e a diminuir as quebras, fui promovido a conferente de 
-        recebimento, no qual fazia recebimento de cargas e também operava empilhadeira. 
-        Nesta oportunidade desenvolvi minha habilidade de organização e tive a oportunidade de gerir
-        uma pequena equipe.
+    sumeTecnologia: {
+        title: "Desenvolvedor Fullstack Flutter/NodeJS",
+        content: `01/2022 fui contratado para desenvolver um sistema completo para participação em uma licitação do MPRJ.
+        Trabalhando o backend com NodeJS, MongoDB e Redis e frontend com Flutter, desenvolvi o sistema para gerenciamento de projetos da Sumé Tecnologia.
+        Sendo uma startup com um gestor de projetos e fundador Leonardo Alves, Designer Felipe Gil e eu como desenvolvedor.
+        Após 7 meses de desenvolvimento fomos os vencedores da licitação.
+
         `
     },
-    flex: {
-        title: 'Tele-atendente',
-        content: `Trabalhei um ano e meio como atendente ativo na operação Citi Bank, trabalhando com fundos e seguros.
-        Nesta área tive a oportunidade de desenvolver minha comunicação, principalmente a escuta ativa. `
+    teltecSolutions: {
+        title: 'Estágio Análista de dados',
+        content: `Trabalhando com Python na criação de scripts para extração de dados das plataformas Meraki/Cisco, Zabbix e Topdesk e criação de Dashboards, relatórios e app's com PowerBI,
+        integrado a plataforma da Azure através do Databricks e Datalake.
+        Apesar de ser uma vaga de estágio já fiz a entrega de projetos onde desenvolvi por completo toda a aplicação sem supervisão.`
     },
     barbeariavip: {
         title: 'Barbeiro',

@@ -1,26 +1,29 @@
 export const DEV ={
     javascript:{
         title:'Javascript',
-        content:`Conhecimento sólido no desenvolvimento com Javascript.
-        Desenvolvimento de páginas dinâmicas, consumo de API's e tratamento de dados assincronos`
+        content:`Conhecimento sólido no desenvolvimento com Javascript
+        Desenvolvimento de páginas dinâmicas, SPA's, landing pages com ReactJS,
+        utilizando as mais recentes atualizações, Hooks avançados, contextAPI, Styled Components, Formik, Yup, Bootstrap, Material UI e outros.
+        \n
+        Utilizando NodeJS para criação de API's, manipulação de arquivos, tratamento de dados, integração com bancos de dados, automação de tarefas, web crawling e outros.
+        ` 
     },
-    react:{
-        title:'React JS',
-        content:`Desenvolvimento de páginas dinâmicas, SPA's, landing pages.
-        Utilizando as mais recentes atualizações, Hooks avançados, contextAPI, Styled Components, Formik, Yup, Bootstrap, Material UI e outros.
+    python:{
+        title:'Python',
+        content:`Tenho desenvolvido scripts para extração de dados em plataformas de monitoramento como Meraki/Cisco, Zabbix e Topdesk.Utilizando notebooks, clusters e armazenamento Azure. E criando relatórios com PowerBI .
         `
     },
-    node:{
-        title:'Node JS',
-        content:`conhecimento em criação de API's, manipulação de arquivos, tratamento de dados, integração com bancos de dados, automação de tarefas.`
+    flutter:{
+        title:'Flutter',
+        content:`Tenho trabalhado com flutter para Sumé tecnologia, na criação de uma plataforma para gestão de projetos.
+        `
     },
     databases:{
         title:'Databases',
-        content:`Trabalhos realizados com bancos relacionais e não relacionais.`
+        content:`Trabalhos realizados com bancos relacionais(postgres, mysql) e não relacionais(MongoDB, Redis) e também armazenamento de arquivos em Azure Datalake .`
     },
     mais:{
-        title:'Softwares',
-        content:`Tenho buscado conhecer vários softwares que auxiliam no desenvolvimento web, como ferramentas de edição de imagens, extensões de IDE's,
-        frameworks, bibliotecas JS, pré-processadores de estilo, Figma, Docker`
+        title:'Auxiliares',
+        content:`Power BI, Docker, Scrum, Kanban Board, Jira, Azure `
     }
 }

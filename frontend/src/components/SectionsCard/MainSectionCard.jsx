@@ -17,10 +17,10 @@ export default function MainCard() {
             <StyledSections>
                 <StyledSectionsTitles><i style={{ fontSize: 30 }} className="bi bi-signpost-split"></i>
                     Experiências</StyledSectionsTitles>
-                <StyledDescription onClick={() => expDispatcher(EXP.americanas.title, EXP.americanas.content)}><i className="bi bi-signpost"></i> CD Americanas</StyledDescription>
-                <StyledDescription onClick={() => expDispatcher(EXP.flex.title, EXP.flex.content)}><i className="bi bi-signpost"></i> Flex CC</StyledDescription>
                 <StyledDescription onClick={() => expDispatcher(EXP.barbeariavip.title, EXP.barbeariavip.content)}><i className="bi bi-signpost"></i> Barbeiro</StyledDescription>
                 <StyledDescription onClick={() => expDispatcher(EXP.desenvolvedor.title, EXP.desenvolvedor.content)}><i className="bi bi-signpost"></i> Web/Mobile Dev</StyledDescription>
+                <StyledDescription onClick={() => expDispatcher(EXP.teltecSolutions.title, EXP.teltecSolutions.content)}><i className="bi bi-signpost"></i> Teltec Solutions</StyledDescription>
+                <StyledDescription onClick={() => expDispatcher(EXP.sumeTecnologia.title, EXP.sumeTecnologia.content)}><i className="bi bi-signpost"></i>Sumé tecnologia </StyledDescription>
             </StyledSections>
             <StyledAvatar />
             <StyledSections>

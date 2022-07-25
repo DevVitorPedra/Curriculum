@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import { StyledDescription, StyledMainCardContainer, StyledSections, StyledSectionsTitles } from './StyledSectionsCard'
 import { DEV } from '../../data/devData'
-import { FaAssistiveListeningSystems, FaDatabase, FaGraduationCap, FaNodeJs,FaReact, FaJsSquare} from 'react-icons/fa'
-import { RiEnglishInput, RiFocus3Line } from 'react-icons/ri'
+import { FaAssistiveListeningSystems, FaDatabase, FaGraduationCap,FaReact, FaJsSquare} from 'react-icons/fa'
+import { RiEnglishInput, RiFlutterFill, RiFocus3Line } from 'react-icons/ri'
 import {FiMoreHorizontal} from 'react-icons/fi'
 import { MdOutlinePsychology } from 'react-icons/md'
 import { ImUserPlus} from 'react-icons/im'
@@ -23,8 +23,8 @@ export default function MidCard() {
             <StyledSections>
             <StyledSectionsTitles><i className="bi bi-pc-display-horizontal"></i> Dev</StyledSectionsTitles>
             <StyledDescription  onClick={()=>expDispatcher(DEV.javascript.title,DEV.javascript.content)}><FaJsSquare/> Javascript</StyledDescription>
-            <StyledDescription  onClick={()=>expDispatcher(DEV.react.title,DEV.react.content)}><FaReact/> React JS </StyledDescription>
-            <StyledDescription  onClick={()=>expDispatcher(DEV.node.title,DEV.node.content)}><FaNodeJs/> Node JS </StyledDescription>
+            <StyledDescription  onClick={()=>expDispatcher(DEV.python.title,DEV.python.content)}><FaReact/>  Python </StyledDescription>
+            <StyledDescription  onClick={()=>expDispatcher(DEV.flutter.title,DEV.flutter.content)}><RiFlutterFill/> Flutter </StyledDescription>
             <StyledDescription  onClick={()=>expDispatcher(DEV.databases.title,DEV.databases.content)}><FaDatabase/> Bancos de Dados </StyledDescription>
             <StyledDescription onClick={()=>expDispatcher(DEV.mais.title,DEV.mais.content)}><FiMoreHorizontal/> mais </StyledDescription>
             </StyledSections>

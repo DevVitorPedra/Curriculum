@@ -14,7 +14,8 @@ export const HS = {
         title:'Desenvolvedor Fullstack',
         content:`Curso de desenvolvimento Web Fullstack com base em React e Node, tenho criado aplicações com foco em SPA's.
         Com um ritmo avançado, tem o objetivo de formar dev's em 9 meses, com uma base sólida e voltada para o mercado.        
-        Criado pelo SENAI tem o objetivo de formar desenvolvedores para suprir as necessidades das empresas parceiras.`
+        Criado pelo SENAI tem o objetivo de formar desenvolvedores para suprir as necessidades das empresas parceiras.
+        Formção de 900 horas, tive a nota final de 92.5`
     },
     ingles:{
         title:'Idioma:Inglês',
@@ -23,7 +24,7 @@ export const HS = {
     },
     mais:{
         title:'Outras Hard Skills',
-        content:`Tenho buscado o desenvolvimento também na área de gestão de projetos, tenho aprendido SCRUM, KANBAN Board, Trello, XP e 
-        Ethical Hacking.`
+        content:`Tenho buscado o desenvolvimento também na área de gestão de projetos, tenho aprendido SCRUM, KANBAN Board, Trello, XP,
+        Ethical Hacking e análise de dados.`
     }
 }
